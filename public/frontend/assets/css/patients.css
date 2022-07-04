@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #151314;
+}
+.banner {
+  width: 100%;
+  min-height: 65vh;
+  margin-top: 80px;
+  display: flex;
+  background: url(../img/patients/banner-bg.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .list-item {
+  display: flex;
+  flex-direction: inherit;
+  margin: 0 0 9px;
+}
+.banner .list-item img {
+  width: 16px;
+  margin: 5px 10px 0 0;
+  height: 16px;
+}
+.banner .list-item span {
+  color: #e1e1e1;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* -- empower-patient --  */
+.empower-patient {
+  background: hsl(330deg 5% 8%);
+}
+.empower-patient .left-img img {
+  width: 85%;
+  height: auto;
+}
+.empower-patient .content .heading {
+  color: #fff;
+  font-size: 30px;
+}
+.empower-patient .content .heading sup {
+  font-size: 17px;
+}
+.empower-patient .content .para {
+  color: #606060;
+  font-size: 16px;
+  margin: 35px 0;
+  font-weight: 500;
+}
+.empower-patient .content .para span{
+  color: #fcbb02;
+}
+.empower-patient .right-img img {
+  width: 85%;
+  float: right;
+}
+
+/* -- Common Uses --  */
+.common-uses {
+  background: radial-gradient(#0000003b, #00000087),url(../img/patients/why-act-bg-art.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.common-uses .heading {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.common-uses .heading sup {
+  font-size: 17px;
+}
+.common-uses .main-lists {
+  width: 70%;
+  margin: auto;
+}
+.common-uses .lists {
+  display: flex;
+}
+.common-uses .lists img {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.common-uses .lists .text {
+  color: #838383;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* -- contact --  */
+.contact-us {
+  position: relative;
+  background: url(../img/home/contact/contact.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: -15px;
+  margin-top: -20px;
+}
+.contact-us .heading {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+.contact-us .img-over img {
+  display: block;
+  height: 140px;
+  position: absolute;
+  top: 40%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+.contact-us .img-over img:first-child {
+  left: auto;
+  right: 20px;
+  height: 520px;
+  border-radius: 20px;
+}
+.contact-us .max-theme-width {
+  max-width: 45%;
+  margin-bottom: 70px;
+}
+.contact-us .contact-heading{
+  width: 50%;
+  margin: auto;
+}
+.contact-us .para {
+  color: #adadad;
+    font-size: 16px;
+    font-weight: 500;
+  margin: 35px 0;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.contact-us .form-card textarea {
+  height: 150px !important;
+}
+.contact-us .form-card .form-control {
+  padding: 18px 30px;
+  height: auto;
+  font-size: 14px;
+  background: #ffffff2e;
+  border: none;
+  color: #fff;
+}
+.contact-us .form-card .form-control::placeholder {
+  color: silver;
+}
+.contact-us .form-card .captcha img {
+  margin-top: -19px;
+  margin-left: -27px;
+}
+.contact-us .form-card .btn-div {
+  margin-top: -20px;
+}
+.contact-us .form-card .btn-div .btn-accent-cancel {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5c5c5c;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #5c5c5c;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.contact-us .btn-submit {
+  font-size: 14px;
+  padding: 5px 40px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  height: 50px;
+  text-align: center;
+  margin-top: 25px;
+  border: none;
+  background: hsl(45deg 98% 50%);
+  background-size: 300% 100%;
+  border-radius: 50px;
+}
+
+/* ===== MEDIA QUERY ====== */
+
+@media only screen and (max-width: 770px) {
+  /* -- empower-patient --  */
+  .empower-patient .content .heading {
+    font-size: 30px;
+  }
+  /* -- Common Uses --  */
+  .common-uses .heading {
+    font-size: 30px;
+  }
+  .common-uses .main-lists {
+    width: 100%;
+  }
+  /* -- contact --  */
+  .contact-us .contact-heading {
+    width: 70%;
+  }
+  .contact-us .max-theme-width {
+    min-width: 65%;
+  }
+  .banner .heading {
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* -- banner --  */
+  .banner {
+    margin-top: 75px;
+    background-position: 70%;
+  }
+  /* -- empower-patient --  */
+  .empower-patient .left-img img {
+    width: auto;
+    height: 300px;
+    margin: auto;
+    display: flex;
+  }
+  .empower-patient .content .heading {
+    font-size: 25px;
+  }
+  .empower-patient .right-img img {
+    width: auto;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    float: none;
+  }
+  /* -- Common Uses --  */
+  .common-uses .heading {
+    font-size: 25px;
+  }
+  .common-uses .main-lists {
+    width: 100%;
+  }
+  /* -- contact --  */
+  .contact-us .img-over {
+    display: none;
+  }
+  .contact-us .heading{
+    font-size: 25px;
+  }
+  .contact-us .contact-heading {
+    width: 100%;
+  }
+  .contact-us .max-theme-width {
+    max-width: 100%;
+  }
+  .contact-us .form-card .captcha img {
+    max-width: 250px;
+  }
+  .contact-us .form-card .captcha img {
+    margin-top: -11px;
+    margin-left: -13px;
+    margin-bottom: 30px;
+  }
+  .contact-us .form-card .btn-div .btn-accent-cancel {
+    width: 120px;
+    font-size: 12px;
+    height: 40px;
+    margin-top: -40px;
+  }
+}

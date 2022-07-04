@@ -1,0 +1,323 @@
+body{
+  background: #151314;
+}
+.banner {
+/*  width: 100%;
+  min-height: 65vh;
+  margin-top: 80px;
+  display: flex;
+  background: url(../img/doctor/banner-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+}
+.banner .list-item {
+  display: flex;
+  flex-direction: inherit;
+  margin: 0 0 9px;
+}
+.banner .list-item img {
+  width: 16px;
+  margin: 5px 10px 0 0;
+  height: 16px;
+}
+.banner .list-item span {
+  color: #e1e1e1;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* -- lab --  */
+/* .lab {
+  background: hsl(330deg 5% 8%);
+} */
+.lab .lab-img img {
+  width: 75%;
+}
+.lab .lab-content .para {
+  color: #606060;
+  font-size: 16px;
+  margin: 35px 0;
+  font-weight: 500;
+}
+.lab .lab-content .lists {
+  display: flex;
+}
+.lab .lab-content .lists img {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 7px;
+}
+.lab .lab-content .lists .text {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* -- provider --  */
+.provider {
+  background: radial-gradient(#0000003b, #00000087),url(../img/patients/why-act-bg-art.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.provider .heading {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+.provider .provider-img-box {
+  display: flex;
+  width: 40%;
+  margin: auto;
+}
+.provider .provider-img-box .provider-left-box {
+  width: 50%;
+  margin-right: 15px;
+}
+.provider .provider-img-box .provider-left-box img {
+  width: 100%;
+  height: auto;
+}
+.provider .provider-img-box .provider-right-box {
+  width: 50%;
+  margin-left: 15px;
+}
+.provider .provider-img-box .provider-right-box img {
+  width: 100%;
+  height: auto;
+}
+
+/* -- common --  */
+.common {
+  background: hsl(330deg 5% 8%);
+}
+.common .common-content .heading {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.common .common-content .heading sup {
+  font-size: 17px;
+}
+.common .common-content .para {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 35px 0;
+}
+.common .common-content .btn-div{
+  display: flex;
+  justify-content: space-between;
+}
+.common .common-btn{
+  border: 2px solid #5a5a5a;
+  width: 48%;
+  color: #fff;
+  padding: 20px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.common .common-btn img{
+  width: 20px;
+  float: right;
+  margin-right: 5px;
+}
+.common .common-btn:hover{
+ background: #1bff0b;
+ color: #000;
+}
+.common .common-img img{
+  width: 75%;
+  float: right;
+}
+
+/* -- contact --  */
+.contact-us {
+  position: relative;
+  background: url(../img/home/contact/contact.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: -15px;
+  margin-top: -20px;
+}
+.contact-us .heading {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+.contact-us .img-over img {
+  display: block;
+  height: 140px;
+  position: absolute;
+  top: 40%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+.contact-us .img-over img:first-child {
+  left: auto;
+  right: 20px;
+  height: 520px;
+  border-radius: 20px;
+}
+.contact-us .max-theme-width {
+  max-width: 45%;
+  margin-bottom: 70px;
+}
+.contact-us .contact-heading{
+  width: 50%;
+  margin: auto;
+}
+.contact-us .para {
+  color: #adadad;
+    font-size: 16px;
+    font-weight: 500;
+  margin: 35px 0;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.contact-us .form-card textarea {
+  height: 150px !important;
+}
+.contact-us .form-card .form-control {
+  padding: 18px 30px;
+  height: auto;
+  font-size: 14px;
+  background: #ffffff2e;
+  border: none;
+  color: #fff;
+}
+.contact-us .form-card .form-control::placeholder {
+  color: silver;
+}
+.contact-us .form-card .captcha img {
+  margin-top: -19px;
+  margin-left: -27px;
+}
+.contact-us .form-card .btn-div {
+  margin-top: -20px;
+}
+.contact-us .form-card .btn-div .btn-accent-cancel {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5c5c5c;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #5c5c5c;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.contact-us .btn-submit {
+  font-size: 14px;
+  padding: 5px 40px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  height: 50px;
+  text-align: center;
+  margin-top: 25px;
+  border: none;
+  background: hsl(45deg 98% 50%);
+  background-size: 300% 100%;
+  border-radius: 50px;
+}
+
+/* ===== MEDIA QUERY ====== */
+
+@media only screen and (max-width: 770px) {
+  /* -- provider --  */
+  .provider .heading {
+    font-size: 30px;
+  }
+  /* -- common --  */
+  .common .common-content .heading{
+    font-size: 30px;
+  }
+  .common .common-btn{
+    font-size: 12px;
+  }
+   /* -- contact --  */
+   .contact-us .contact-heading {
+    width: 70%;
+  }
+  .contact-us .max-theme-width {
+    min-width: 65%;
+  }
+  .banner .heading {
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .reverse{
+    flex-direction: column-reverse;
+  }
+  /* -- banner --  */
+  .banner {
+    margin-top: 75px;
+    background-position: 70%;
+  }
+  /* -- lab --  */
+  .lab .lab-img img {
+    width: auto;
+    height: 300px;
+    margin: auto;
+    display: flex;
+  }
+  /* -- provider --  */
+  .provider .heading {
+    font-size: 25px;
+  }
+  .provider .provider-img-box {
+    width: 80%;
+  }
+  /* -- common --  */
+  .common .common-content .heading{
+    font-size: 25px;
+  }
+  .common .common-img img{
+    width: auto;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    float: none;
+  }
+  .common .common-btn{
+    font-size: 10px;
+  }
+  /* -- contact --  */
+  .contact-us .img-over {
+    display: none;
+  }
+  .contact-us .heading{
+    font-size: 25px;
+  }
+  .contact-us .contact-heading {
+    width: 100%;
+  }
+  .contact-us .max-theme-width {
+    max-width: 100%;
+  }
+  .contact-us .form-card .captcha img {
+    max-width: 250px;
+  }
+  .contact-us .form-card .captcha img {
+    margin-top: -11px;
+    margin-left: -13px;
+    margin-bottom: 30px;
+  }
+  .contact-us .form-card .btn-div .btn-accent-cancel {
+    width: 120px;
+    font-size: 12px;
+    height: 40px;
+    margin-top: -40px;
+  }
+}

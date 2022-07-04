@@ -1,0 +1,334 @@
+body{
+  background-color: hsl(330deg 5% 8%);
+}
+.banner {
+  background: url(../img/home/banner/banner.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 80px;
+  transform: translateY(0px);
+}
+.banner .heading {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.banner .water {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.banner .custom {
+  color: hsl(359deg 88% 54%);
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.banner .casts {
+  color: hsl(113deg 98% 51%);
+  font-size: 60px;
+  font-weight: 400;
+}
+.banner .splints {
+  color: hsl(45deg 98% 49%);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.banner .list-main {
+  width: 90%;
+}
+.banner .list-item {
+  display: flex;
+  flex-direction: inherit;
+  margin: 0 0 9px;
+}
+.banner .list-item img {
+  width: 16px;
+  margin: 5px 10px 0 0;
+  height: 16px;
+}
+.banner .list-item span {
+  color: #e1e1e1;
+  font-size: 15px;
+  font-weight: 400;
+}
+/* -- what-activarmor --  */
+.what-activarmor {
+  padding-bottom: 60px;
+}
+.what-activarmor .left-content img {
+  width: 80%;
+  height: auto;
+}
+.what-activarmor .heading1 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.what-activarmor .heading1 sup {
+  font-size: 17px;
+}
+.what-activarmor .para1 {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.what-activarmor .activa-list {
+  display: flex;
+  margin: 25px 0;
+}
+.what-activarmor .activa-list-img {
+  margin-right: 15px;
+}
+.what-activarmor .activa-list-content .heading2 {
+  color: hsl(198deg 89% 27%);
+  font-size: 18px;
+  font-weight: 500;
+}
+.what-activarmor .activa-list-content .para2 {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* -- why-active --  */
+.why-activarmor {
+  background: radial-gradient(#0000003b, #00000087),url(../img/home/why-activarmor/why-act-bg-art.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: -15px;
+}
+.why-activarmor .heading {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.why-activarmor .heading sup {
+  font-size: 17px;
+}
+.why-activarmor .para {
+  color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* .why-activarmor .img img {
+  width: 60px;
+  height: auto;
+} */
+.why-activarmor .heading2 h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.why-activarmor .para2 p {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* -- contact --  */
+.contact-us {
+  position: relative;
+  background: url(../img/home/contact/contact.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: -15px;
+  margin-top: -20px;
+}
+.contact-us .heading {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+.contact-us .img-over img {
+  display: block;
+  height: 140px;
+  position: absolute;
+  top: 40%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+.contact-us .img-over img:first-child {
+  left: auto;
+  right: 20px;
+  height: 520px;
+  border-radius: 20px;
+}
+.contact-us .max-theme-width {
+  max-width: 45%;
+  margin-bottom: 70px;
+}
+.contact-us .contact-heading{
+  width: 50%;
+  margin: auto;
+}
+.contact-us .para {
+  color: #adadad;
+    font-size: 16px;
+    font-weight: 500;
+  margin: 35px 0;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.contact-us .form-card textarea {
+  height: 150px !important;
+}
+.contact-us .form-card .form-control {
+  padding: 18px 30px;
+  height: auto;
+  font-size: 14px;
+  background: #ffffff2e;
+  border: none;
+  color: #fff;
+}
+.contact-us .form-card .form-control::placeholder {
+  color: silver;
+}
+.contact-us .form-card .captcha img {
+  margin-top: -19px;
+  margin-left: -27px;
+}
+.contact-us .form-card .btn-div {
+  margin-top: -20px;
+}
+.contact-us .form-card .btn-div .btn-accent-cancel {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5c5c5c;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #5c5c5c;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.contact-us .btn-submit {
+  font-size: 14px;
+  padding: 5px 40px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  height: 50px;
+  text-align: center;
+  margin-top: 25px;
+  border: none;
+  background: hsl(45deg 98% 50%);
+  background-size: 300% 100%;
+  border-radius: 50px;
+}
+
+/* ===== MEDIA QUERY ====== */
+
+@media only screen and (max-width: 2565px) {
+}
+@media only screen and (max-width: 1445px) {
+}
+@media only screen and (min-width: 772px) and (max-width: 1025px) {
+}
+@media only screen and (max-width: 770px) {
+  /* -- banner --  */
+  .banner .water,
+  .banner .custom,
+  .banner .casts,
+  .banner .splints {
+    font-size: 50px;
+  }
+  /* -- what-activarmor -- */
+  .what-activarmor{
+    padding-top: 0px;
+  }
+  /* -- contact --  */
+  .contact-us .contact-heading {
+    width: 70%;
+  }
+  .contact-us .max-theme-width {
+    min-width: 65%;
+  }
+  .banner .heading {
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* -- banner --  */
+  .banner {
+    margin-top: 70px;
+  }
+  .banner .water,
+  .banner .custom,
+  .banner .casts,
+  .banner .splints {
+    font-size: 40px;
+  }
+  .banner .heading {
+    padding-bottom: 25px;
+  }
+  /* -- what-activarmor -- */
+  .what-activarmor{
+    padding-top: 0px;
+  }
+  .what-activarmor .left-content img{
+    width: auto;
+    height: 300px;
+    margin: auto;
+    display: flex;
+  }
+  .what-activarmor .heading1{
+    font-size: 25px;
+  }
+  .what-activarmor .heading1 sup {
+    font-size: 15px;
+}
+  /* -- why-activarmor --  */
+  .why-activarmor .heading{
+    font-size: 25px;
+  }
+  .why-activarmor .heading sup{
+    font-size: 15px;
+  }
+  .why-activarmor .para{
+    text-align: justify;
+  }
+   /* -- contact --  */
+   .contact-us .img-over {
+    display: none;
+  }
+  .contact-us .heading{
+    font-size: 25px;
+  }
+  .contact-us .contact-heading {
+    width: 100%;
+  }
+  .contact-us .max-theme-width {
+    max-width: 100%;
+  }
+  .contact-us .form-card .captcha img {
+    max-width: 250px;
+  }
+  .contact-us .form-card .captcha img {
+    margin-top: -11px;
+    margin-left: -13px;
+    margin-bottom: 30px;
+  }
+  .contact-us .form-card .btn-div .btn-accent-cancel {
+    width: 120px;
+    font-size: 12px;
+    height: 40px;
+    margin-top: -40px;
+  }
+}

@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.max-theme-width {
+  width: 80%;
+  margin: auto;
+}
+.section-padding {
+  padding: 60px 0;
+}
+/* -- header --  */
+header {
+  background: #181818;
+  height: 80px;
+}
+header .bg-dark {
+  background-color: #181818 !important;
+  padding: 0;
+}
+header .navbar-brand img {
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+header .navbar-dark .navbar-nav .nav-link {
+  color: #e1e1e1;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .navbar-dark .navbar-nav .nav-link:hover {
+ color: #006ba1;
+}
+/* header .navbar-dark .navbar-nav .active {
+ color: #006ba1;
+} */
+header li.nav-item {
+  margin-left: 30px;
+}
+header .search {
+  background: #006ba1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  color: #fff;
+  height: 80px;
+  width: 80px;
+  margin-left: 30px;
+}
+header .search i {
+  font-size: 22px;
+}
+
+/* -- footer --  */
+footer {
+  position: relative;
+  background: url(../img/footer/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .p-1 {
+  color: #777;
+  font-size: 15px;
+  margin: 20px 0 0;
+}
+footer .f-list-item {
+  margin-bottom: 15px;
+}
+footer .f-list-item img {
+  width: 10px;
+}
+footer .f-list-item a {
+  color: #777;
+  font-size: 15px;
+  margin: 0 0 0 5px;
+  font-weight: 500;
+}
+footer .f-list-item a:hover {
+  color: #edbb38;
+  text-decoration: none;
+}
+footer .footer-links {
+  display: flex;
+  justify-content: center;
+}
+footer table td img {
+  margin-right: 10px;
+}
+footer table td {
+  color: #777;
+  font-size: 15px;
+  padding: 0 0 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+footer table td a {
+  color: #777;
+}
+footer table td a:hover {
+  color: #edbb38;
+}
+footer .f-social {
+  text-align: center;
+}
+footer .f-social a {
+  text-decoration: none;
+}
+footer .f-social a i {
+  color: #020202;
+  background: #43484c;
+  padding: 5px;
+  border-radius: 50%;
+}
+footer .fa-facebook-f {
+  padding: 5px 8px !important;
+}
+footer .f-social a i:hover {
+  background: #edbb38;
+}
+footer .f-social a {
+  margin: 0 5px 0 0;
+  display: inline-block;
+}
+footer .f-social-btn {
+  text-align: center;
+}
+footer .f-social-btn button.btn {
+  border-color: #edbb38;
+  color: #777;
+  border-radius: 40px;
+  padding: 5px 25px;
+  margin: 20px 0 0;
+  text-transform: uppercase;
+}
+footer .f-social-btn button.btn:hover {
+  color: #212b33;
+}
+footer .dropdown-divider {
+  margin: 30px 0;
+  border-top-color: #777;
+}
+footer .f-last {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .p-last {
+  color: #777;
+  margin: 5px 0;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+footer .f-a-last {
+  color: #727272;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+footer .f-s-last {
+  color: #727272;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* ===== MEDIA QUERY ====== */
+
+@media only screen and (max-width: 1025px) {
+  /* -- header --  */
+  header .navbar-brand img {
+    width: 200px;
+  }
+  header li.nav-item, header .search {
+    margin-left: 10px;
+  }
+  header .navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .max-theme-width {
+    width: 95%;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  /* -- header --  */
+  header {
+    height: 75px;
+  }
+  header .navbar-brand img {
+    width: 150px;
+  }
+  header li.nav-item, header .search {
+    margin-left: 10px;
+    width: 94%;
+    height: 40px;
+  }
+  /* -- footer --  */
+  footer .footer-links {
+    justify-content: flex-start;
+  }
+  footer .f-social {
+    text-align: left;
+  }
+  footer .f-social-btn {
+    text-align: left;
+  }
+  footer .f-last {
+    font-size: 12px;
+    flex-direction: column;
+    align-items: baseline;
+}
+}
