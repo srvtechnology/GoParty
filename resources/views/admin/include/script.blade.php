@@ -1,0 +1,23 @@
+<script src="{{url('/')}}/public/adminasset/js/jquery-3.6.0.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/jquery-migrate-3.0.0.min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/popper.min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/bootstrap.min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/jquery.mmenu.all.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/ace-responsive-menu.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/bootstrap-select.min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/chart.min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/chart-custome.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/snackbar.min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/simplebar.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/parallax.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/scrollto.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/jquery-scrolltofixed-min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/jquery.counterup.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/wow.min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/progressbar.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/slider.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/timepicker.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/wow.min.js"></script>
+<script src="{{url('/')}}/public/adminasset/js/dashboard-script.js"></script>
+<!-- Custom script for all pages --> 
+<script src="{{url('/')}}/public/adminasset/js/script.js"></script>
